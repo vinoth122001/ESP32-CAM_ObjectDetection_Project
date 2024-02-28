@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@400;500;600;700;800&display=swap');
+
+@font-face {
+    font-family: Myfont;
+    src: url(font/WarowniaUlt.otf);
+    font-weight: normal;
+}
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Wix Madefor Text', sans-serif;
+
+   
+}
+
+
+.title{
+    text-align: center;
+    margin: 80px ;
+    font-family: Myfont , sans-serif;
+    word-spacing: 5px;
+    font-weight: 500;
+    
+}
+
+.sub-title{
+    text-transform: capitalize;
+    margin-left: 30px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+   
+
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+
+.container{
+   background-color: lightblue;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    padding: 40px;
+    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    
+  }
+  .grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+    background-color: lightgreen;
+    font-family: 'Wix Madefor Text', sans-serif;
+
+    
+  }
+
+  .grid-item-avail {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+    background-color: lightcoral;
+    font-family: 'Wix Madefor Text', sans-serif;
+
+  }
+
+  p{
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: bolder;
+  }
